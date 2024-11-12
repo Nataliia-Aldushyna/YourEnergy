@@ -1,0 +1,12 @@
+:root {
+  --animation-time: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --black: #242424;
+    --gray: #f4f4f4;
+    --orange: #eea10c;
+  }

@@ -1,0 +1,192 @@
+.exrcs-motivation-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 80px; 
+
+    @media screen and (min-width:768px) {
+        flex-direction: row;
+    }
+
+    
+}
+
+.quote-card {
+    background: #242424;    
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;   
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.icon-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.1);    
+    border-radius: 50%;
+}
+
+.icon-right {
+    display: inline-flex;    
+    margin-left: 8px;    
+    vertical-align: middle;    
+}
+
+.quote-icon {
+    fill: #f4f4f4;
+    width: 20px;
+    height: 20px;
+}
+
+.quote-content {
+    flex: 1;
+}
+
+.quote-text {
+    color: #f4f4f4;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.quote-content {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(244, 244, 244, 0.8);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.quote-author {
+    font-weight: 400;
+    font-size: 14px;
+    color: #f4f4f4;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.image-wrapper {
+    max-width: 500px;
+    margin: 0 auto;    
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.motivation-image {
+    width: 500px;        
+    height: auto;
+    object-fit: cover;      
+}
+
+.exercise-goal-card {
+    background-color: #fff;   
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.goal-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: rgb(0, 0, 0);    
+    border-radius: 50%;
+}
+
+.icon-target {
+    fill: #f4f4f4;
+    width: 20px;
+    height: 20px;
+}
+
+.goal-content {
+    flex: 1;
+}
+
+.goal-text {
+    font-weight: 600;
+    font-size: 20px;
+    color: #242424;
+    margin: 0;
+}
+
+.goal-subtext {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(36, 36, 36, 0.6);
+    margin-top: 5px;
+}
+
+.goal-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(36, 36, 36, 0.8);
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px) {
+    .exrcs-motivation-container {
+        flex-direction: row;
+        flex-wrap: wrap;    
+        gap: 32px;
+        max-width: 800px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .quote-card {
+        width: 53%;
+        /* height: 249px; */
+    }
+    .image-wrapper {
+        margin: 0;
+        width: 42%;
+    }
+
+    .exercise-goal-card {
+        width: 53%;
+        margin: 0;
+        margin-right: auto;  
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .exrcs-motivation-container {
+        flex-direction: column;
+        flex-wrap: nowrap;    
+        gap: 32px;
+        max-width: none;
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    .quote-card {
+        width: 100%;
+    }
+
+    .image-wrapper {
+        margin: 0;
+        width: 100%;
+    }
+
+    .exercise-goal-card {
+        width: 100%;
+        margin: 0;
+        margin-right: auto;  
+    }
+}

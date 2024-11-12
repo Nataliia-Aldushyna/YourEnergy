@@ -1,0 +1,23 @@
+
+/* Utils styles */
+@import url('./utils/variables.css');
+@import url('./utils/normalize.css');
+@import url('./utils/reset.css');
+
+/* Common styles */
+@import url('./common/base.css');
+
+/* Reuse styles */
+@import url('./components/logo.css');
+@import url('./components/socials.css');
+
+/* Components styles */
+@import url('./components/header.css');
+@import url('./components/hero.css');
+@import url('./components/exrcs-inpt.css');
+@import url('./components/exrcs-xmpl.css');
+@import url('./components/exrcs-motivation.css');
+@import url('./components/exrcs-modal.css');
+@import url('./components/favorites.css');
+@import url('./components/footer.css');
+

@@ -1,0 +1,72 @@
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: 0em;
+    font-weight: 400;
+    background-color: #f4f4f4;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: -0.04em;
+      }
+    
+      @media only screen and (min-width: 1440px) {
+       
+      }
+}
+main {
+    background-color: #f4f4f4;
+}
+h1 {
+    font-size: 2.7em;
+    line-height: 3.14em;
+    letter-spacing: -0.02em;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 4.11em;
+        line-height: 4.11em;
+    }
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 2.71em;
+    letter-spacing: -0.02em;
+
+    @media only screen and (min-width: 768px) {
+        font-size: 2.44em;
+        line-height: 2.66em;
+    }
+}
+.container {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+  
+    @media only screen and (min-width: 768px) {
+      max-width: 768px;
+      padding: 0 32px;
+    }
+  
+    @media only screen and (min-width: 1440px) {
+      max-width: 1440px;
+    }
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Power yourself with our best exercises" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Your energy</title>
+  </head>
+  <body>
+    <load src="partials/header.html" />
+    <main>
+        <section class="fav-sec">
+            <div class="container">
+                <h1>Favorites</h1>
+                <div class="fav-wrapper">
+                    <div class="wrapper-first-sec">
+                        <div class="quote-card fav-quote-card">
+                            <div class="icon-left">
+                                <svg class="quote-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#runn-man"></use>
+                                </svg>
+                            </div>
+                            <div class="quote-content">
+                                <p class="quote-text fav-quote-text">
+                                    Quote of the day
+                                    <span class="icon-right fav-icon-right">
+                                    <svg class="quote-icon" width="20" height="20">
+                                        <use href="./images/icons.svg#quote"></use>
+                                    </svg>
+                                    </span>
+                                </p>
+                                <p class="quote">
+                                    
+                                </p>
+                                <p class="quote-author">Tom Brady</p>
+                            </div>
+                        </div>   
+                        <div class="exercise-goal-card fav-goal-card">
+                            <div class="goal-icon">
+                                <svg class="icon-target" width="20" height="20">
+                                    <use href="./images/icons.svg#gauntlets"></use>
+                                </svg>
+                            </div>
+                            <div class="goal-content">
+                                <p class="goal-text">110 min</p>
+                                <p class="goal-subtext">Daily norm of sports</p>
+                            </div>
+                        </div>  
+                        <img
+                        src="./images/favorites/smiling-girls.webp"
+                        srcset="./images/favorites/smiling-girls@2x.webp"
+                        alt="Group exercising"
+                        class="fav-img"
+                        loading="lazy"
+                        />       
+                          
+                    </div>   
+                    <ul class="exr-list wrapper-secnd" id="wrapper-secnd">
+
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <load src="partials/exrcs-modal.html" />
+    </main>
+    <script defer type="module" src="./js/favExer.js"></script>
+    <script defer type="module" src="./js/checkLocal.js"></script>
+
+    <script defer type="module" src="./js/category/exrcs-modal.js"></script>
+    <script defer type="module" src="./js/category/store-exercises.js"></script>
+    <script defer type="module" src="./js/mob-menu.js"></script>
+    <!-- <script defer type="module" src="./js/main.js"></script> -->
+</body>
+</html>
